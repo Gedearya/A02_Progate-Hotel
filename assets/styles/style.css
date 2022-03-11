@@ -89,6 +89,7 @@ p {
 
 .l-heading {
   font-size: 40px;
+  
 }
 
 /* Padding */
@@ -147,7 +148,7 @@ p {
 
 /* Showcase */
 #showcase {
-  background: url('../assets/images/well.jpg') no-repeat center center/cover;
+  background: url('../images/well.jpg') no-repeat center center/cover;
   height: 600px;
 }
 
@@ -175,7 +176,7 @@ p {
 #home-info .info-img {
   float: left;
   width: 50%;
-  background: url('../assets/images/try.jpg') no-repeat;
+  background: url('../images/try.jpg') no-repeat;
   min-height: 100%;
 }
 
@@ -227,7 +228,7 @@ p {
 /* Teams */
 #teams {
   height: 100%;
-  background: url('../assets/images/man.jpeg') no-repeat center center/cover;
+  background: url('../images/man.jpeg') no-repeat center center/cover;
   padding-top: 100px;
 
 }
