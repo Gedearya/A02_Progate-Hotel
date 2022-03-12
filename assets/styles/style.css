@@ -41,7 +41,7 @@ p {
 }
 
 .text-primary {
-  color: #f7c08a;
+  color: #f8b16a;
 }
 
 .lead {
@@ -59,7 +59,7 @@ p {
 }
 
 .btn:hover {
-  background: #f7c08a;
+  background: #f8b16a;
   color: #333;
 }
 
@@ -79,7 +79,7 @@ p {
 }
 
 .bg-primary {
-  background: #f7c08a;
+  background: #f8b16a;
   color: #333;
 }
 
@@ -89,7 +89,6 @@ p {
 
 .l-heading {
   font-size: 40px;
-  
 }
 
 /* Padding */
@@ -143,7 +142,7 @@ p {
 #navbar ul li a:hover,
 #navbar ul li a.current {
   background: #444;
-  color: #f7c08a;
+  color: #f8b16a;
 }
 
 /* Showcase */
@@ -246,9 +245,10 @@ p {
   border-radius: 5px;
   opacity: 0.9;
   width: 45%;
-  align-items: center;
-  margin-left: 300px;
   overflow: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #teams .team img {
@@ -283,7 +283,7 @@ p {
 #contact-form input:focus,
 #contact-form textarea:focus {
   outline: none;
-  border-color: #f7c08a;
+  border-color: #f8b16a;
 }
 
 /* Footer */

@@ -1,8 +1,13 @@
 /* For Smarthphone */
-@media (max-width:768px) {
+@media (max-width:670px) {
     #navbar .logo {
       float: none;
+      align-items: center;
       text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  
     }
     
     #navbar ul,
@@ -11,13 +16,13 @@
     }
     
     #navbar ul li a {
-      padding: 5px;
+      padding: 10px;
       border-bottom: #444 dotted 1p;
     }
     
     #showcase .showcase-content {
       height: 100%;
-      padding-top: 70px;
+      padding-top: 150px;
       padding-bottom: 30px;
     }
     
@@ -51,11 +56,24 @@
     
     .l-heading {
       text-align: center;
+      font-size: 30px;
     }
     
     .box {
       float: none;
       width: 100%;
+    }
+
+    #teams .team {
+      padding: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      opacity: 0.9;
+      width: 90%;
+      overflow: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
     
     #contact-info .box {
