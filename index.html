@@ -27,6 +27,7 @@
           <ul>
             <li><a class="current" href="index.html">Home</a></li>
             <li><a href="#about-info">About</a></li>
+            <li><a href="#rooms">Rooms</a></li>
             <li><a href="#teams">Our Team</a></li>
             <li><a href="#contact-form">Contact</a></li>
           </ul>
@@ -117,6 +118,74 @@
           <img src="./assets/images/tet.jpeg" alt="hotel" />
         </div>
       </div>
+    </section>
+    <section id="rooms">
+      <div class="bg-dark">
+        <h1 class="l-heading text-primary title">
+          Rooms
+        </h1>
+        <div class="room bg-dark">
+          <img src="./assets/images/room-single.jpg" alt="Single Room" style="width:100%">
+          <div class="room-content">
+            <h3>Single Room</h3>
+            <h6>From $99</h6>
+            <p>Single bed</p>
+            <p>15m<sup>2</sup></p>
+            <p><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i></p>
+          </div> 
+          <a href="#booking"><button class="btn btn-light btn-room">Choose Room</button></a> 
+        </div>
+        <div class="room bg-dark">
+          <img src="./assets/images/room-double.jpg" alt="Norway" style="width:100%">
+          <div class="room-content">
+            <h3>Double Room</h3>
+            <h6>From $149</h6>
+            <p>Queen-size bed</p>
+            <p>25m<sup>2</sup></p>
+            <p><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i></p>
+          </div>
+          <a href="#booking"><button class="btn btn-light btn-room">Choose Room</button></a>
+        </div>
+        <div class="room bg-dark">
+          <img src="./assets/images/room-deluxe.jpg" alt="Norway" style="width:100%">
+          <div class="room-content">
+            <h3>Deluxe Room</h3>
+            <h6 >From $199</h6>
+            <p>King-size bed</p>
+            <p>40m<sup>2</sup></p>
+            <p><i class="fa fa-bath"></i> <i class="fa fa-phone"></i> <i class="fa fa-wifi"></i> <i class="fa fa-tv"></i> <i class="fa fa-glass"></i> <i class="fa fa-cutlery"></i></p>
+          </div>
+          <a href="#booking"><button class="btn btn-light btn-room">Choose Room</button></a>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section id="booking" class="py-3">
+      <div class="container">
+      <h1 class="l-heading" style="text-align: center; padding: 30px">Book <span class="text-primary">Now</span></h1>
+        <form action="booking.php">
+        <div class="form-group">
+          <label> Check In</label>
+          <input type="datetime-local" name="check-in" id="check-in">
+        </div>
+        <div class="form-group">
+          <label> Check Out</label>
+          <input type="datetime-local" name="check-out" id="check-out">
+        </div>
+        <div class="form-group">
+          <label>Adults</label>
+          <input  type="number" placeholder="1" name="adult" id="adult">
+        </div>
+        <div class="form-group">
+          <label> Kids</label>
+          <input type="number" placeholder="0" name="kids" id="kids">
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn">Search</button>
+        </div>
+      </div>
+    </div>
+    </form>
     </section>
     <div class="clr"></div>
     <section id="teams" class="py-3">
