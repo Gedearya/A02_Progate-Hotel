@@ -1,12 +1,11 @@
 /* For Tablet */
 @media (max-width : 1000px) {
-  
-    
   #showcase .showcase-content {
     height: 100%;
     padding-top: 150px;
     padding-bottom: 30px;
   }
+  
   /* Features */
   .box {
     float: left;
@@ -20,7 +19,6 @@
   /*end features*/
 
   #teams .team {
-    
     width: 65%;
   }
   #contact-info .box {
